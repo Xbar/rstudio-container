@@ -28,6 +28,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: singularity-image
-          path: image.sif
+          path: rstudio.sif
           retention-days: 7
 
